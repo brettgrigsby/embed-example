@@ -58,7 +58,7 @@ export default function Home() {
           </div>
 
           {/* Right Column - Embedded Game Section */}
-          <div className="bg-white dark:bg-slate-800 rounded-xl shadow-lg p-8">
+          <div className="bg-white dark:bg-slate-800 rounded-none md:rounded-xl shadow-lg p-0 md:p-8 -mx-4 md:mx-0">
             <div style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}>
               <div style={{ position: 'relative', paddingBottom: '150%', height: 0 }}>
                 <iframe
